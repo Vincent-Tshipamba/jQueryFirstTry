@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(66, 123, 173);
+    color: #ffff;
+    padding: 0;
+    margin: 0;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+}
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(9, 48, 83);
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 100px;
+    list-style-type: none;
+    display: none;
+    align-items: center;
+    padding: 0 55px;
+}
+
+header nav ul li {
+    font-size: 20px;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#firstSection {
+    margin-top: 90px;
+    padding: 0 55px;
+    text-align: center;
+}
+
+#firstSection .title{
+    text-transform: uppercase;
+    display: none;
+}
+
+#firstSection .input{
+    display: none;
+}
+
+#display{
+    padding: 10px 15px;
+    text-align: center;
+    background-color: rgb(166, 166, 225);
+    display: none;
+}
